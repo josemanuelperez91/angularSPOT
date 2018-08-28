@@ -13,7 +13,6 @@ export class TarjetasComponent {
 
   verArtista(item: any) {
     let id;
-    console.log(item);
     if (item.type === 'artist') {
       id = item.id;
     } else {
